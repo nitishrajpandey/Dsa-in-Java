@@ -59,7 +59,7 @@ public class Main {
 
 ```
 
-### 3. show the following design using single print statement.
+### @3. show the following design using single print statement.
 
 ```java
 
@@ -76,7 +76,7 @@ public class Main {
 
 ```
 
-### 4. Write a program to take name as input and show welcome massage .
+### @4. Write a program to take name as input and show welcome massage .
 
 ```java
 import java.util.Scanner;
@@ -92,7 +92,7 @@ public class Main {
 
 ```
 
-### 5. Create a program to add two number.
+### @5. Create a program to add two number.
 
 ```java
 import java.util.Scanner;
@@ -108,4 +108,26 @@ public class Main {
     }
 }
 
+```
+
+### @6. write a program to swap two number ?.
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Program to swap two number only using assigment operator ");
+        System.out.print("Enter the first number : ");
+        int number1 = userInput.nextInt();
+        System.out.print("Enter the second number : ");
+        int number2 = userInput.nextInt();
+        System.out.println("You enter number 1 is "+number1 +" and number 2 is "+number2);
+        int number3 = number1;
+        number1=number2;
+        number2=number3;
+        System.out.println("After swap number 1 is "+number1 +" and number 2 is "+number2);
+    }
+}
 ```
